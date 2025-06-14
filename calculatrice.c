@@ -37,3 +37,17 @@ int puissance(int base, int exposant) {
     }
     return resultat;
 }
+//Méthode main par Saliou
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 2;
+
+    printf("Addition : %d + %d = %d\n", a, b, addition(a, b));
+    printf("Soustraction : %d - %d = %d\n", a, b, soustraction(a, b));
+    printf("Multiplication : %d * %d = %d\n", a, b, multiplication(a, b));
+    printf("Division : %d / %d = %.2f\n", a, b, division(a, b));
+    printf("Puissance : %d ^ %d = %d\n", a, b, puissance(a, b));
+
+    return 0;
+}
